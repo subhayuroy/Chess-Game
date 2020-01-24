@@ -59,6 +59,7 @@ void loadPosition()
             f[k].setPosition(size*j, size*i);
             k++;
         }
+        
     for(int i=0; i<position.length();i+=5)
         move(position.substr(i,4));
 }
@@ -112,6 +113,7 @@ int main()
                         dy = pos.y - f[i].getPosition().y;
                         oldPos = f[i].getPosition();
                     }
+                
             if(e.type == Event::MouseButtonReleased)
                 if(e.key.code == Mouse::Left)
                 {

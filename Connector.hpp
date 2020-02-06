@@ -62,5 +62,4 @@ void CloseConnection()
     if(pi.hThread != NULL) CloseHandle(pi.hTread);
 }
 
-
 #endif CONNECTOR_H
